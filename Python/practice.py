@@ -1,6 +1,5 @@
-a=10
-b=20
-c=30
-d=a+b+c
-e=d+10
-print(e)
+a=int(input("enter principle amount"))
+b=int(input("enter interest rate"))
+c=int(input("time in whole number"))
+si=(a*b*c)//100
+print("simple interest",si)
